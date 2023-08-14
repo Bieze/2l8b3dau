@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import * as React from "react";
+import {Button} from "@nextui-org/button";
+
 
 export default function Home() {
   return (
     <main>
-
+      <Button>Press me</Button>
     </main>
   )
 }
